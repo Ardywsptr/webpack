@@ -1,0 +1,8 @@
+$bg: yellow;
+$primary: #435b66;
+
+@import "bootstrap/scss/bootstrap";
+
+body {
+    background-color: $primary;
+}

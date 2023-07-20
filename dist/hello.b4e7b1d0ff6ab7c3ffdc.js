@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebpack=self.webpackChunkwebpack||[]).push([[858],{652:(e,s,p)=>{var c=p(486),k=p.n(c);console.log(k().toUpper("ini hello.js"))}},e=>{e(e.s=652)}]);

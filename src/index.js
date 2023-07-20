@@ -1,3 +1,6 @@
+import * as bootstrap from "bootstrap";
+import css from "./style/style.scss";
+
 import {
     run
 } from "./app/app.js";

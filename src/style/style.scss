@@ -1,0 +1,14 @@
+$bg: yellow;
+$primary: #435b66;
+
+@import "bootstrap/scss/bootstrap";
+
+body {
+    background-color: $primary;
+}
+
+.logo {
+    width: 150px;
+    margin: 20px auto;
+    display: block;
+}

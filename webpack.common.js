@@ -8,13 +8,22 @@ module.exports = {
     devtool: false,
     module: {
         rules: [{
-            test: /\.s[ac]ss$/i,
-            use: [
-                MiniCssExtractPlugin.loader,
-                "css-loader",
-                "sass-loader",
-            ],
-        }, ]
+                test: /\.s[ac]ss$/i,
+                use: [
+                    MiniCssExtractPlugin.loader,
+                    "css-loader",
+                    "sass-loader",
+                ],
+            },
+            {
+                test: /\.html$/i,
+                loader: "html-loader",
+            },
+            {
+                test: /\.(png|jp?eg|gif|svg|webp)$/i,
+                type: 'asset/resource'
+            }
+        ]
     },
     plugins: [
         new HtmlWebpackPlugin({

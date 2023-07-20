@@ -9,7 +9,7 @@ module.exports = merge(common, {
     mode: 'production',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'bundle.[contenthash].js',
+        filename: '[name].[contenthash].js',
         assetModuleFilename: 'img/[name]-[hash][ext]',
         clean: true,
     },

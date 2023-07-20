@@ -1,5 +1,6 @@
-import * as bootstrap from "bootstrap";
+import vendor from "./vendor.js";
 import css from "./style/style.scss";
+import _ from "lodash";
 
 import {
     run
@@ -20,3 +21,5 @@ const calculatorService = new CalculatorService();
 const jokesService = new JokesService();
 
 run(alertService, calculatorService, jokesService);
+
+console.log(_.toUpper("ini index.js"));
